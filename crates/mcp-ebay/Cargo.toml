@@ -1,0 +1,16 @@
+[package]
+name = "mcp-ebay"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+mcp-server-core.workspace = true
+mcp-ebay-marketplace = { path = "../mcp-ebay-marketplace" }
+tokio.workspace = true
+
+[dev-dependencies]
+tracing.workspace = true
+tracing-subscriber.workspace = true
